@@ -1,0 +1,61 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.container .row img {
+    margin-top: 50px;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; 
+    margin-left: 100px;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #033500;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #033500
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.blog-post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post p {
+    color: #6e6d6d;
+}

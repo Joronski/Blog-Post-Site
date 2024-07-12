@@ -1,0 +1,130 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 100px;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #033500;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #033500
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+/* Modern Design */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Flexbox layout for main content */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-8 {
+    flex: 0 0 65%;
+    max-width: 65%;
+}
+
+.col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.col-md-4 h3 {
+    margin-top: 60px;
+}
+
+.col-md-4 img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-link {
+    margin-right: 17px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-link:hover svg {
+    fill: #4CAF50; /* Change to the desired hover color */
+    transition: fill 0.3s ease; /* Add smooth transition */
+}
+
+/* Main Content Area */
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    color: #6e6d6d;
+    margin-bottom: 20px;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.blog-post a:hover {
+    color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-8, .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .col-md-4 h3 {
+        margin-top: 20px;   
+    }
+}
